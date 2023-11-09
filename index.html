@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furniture Shop</title>
+  <link rel="icon" type="image/png" href="./images/imgstore/logo (3).jpeg">
+  <link rel="stylesheet" href="./style.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Cormorant+Garamond&family=Dancing+Script:wght@500&family=Kalam:wght@400;700&family=Poppins:wght@200&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body style="font-family: 'Roboto', sans-serif;">
+
+  <!-- header -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 fixed-top" >
+      <div class="container-fluid " style="background-color:rgba(0, 0, 0, 0.2);">
+        <img height="40px" src="./images/imgstore/logo (3).jpeg" alt="">
+        <a class="navbar-brand" href="#"><b>WooD Style</b></a>
+          
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-primary  " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Collections</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#chairs">Chairs</a></li>
+                <li><a class="dropdown-item" href="#tablesets">Tables</a></li>
+                <li><a class="dropdown-item" href="#bedroom">Bed</a></li>
+                <li><a class="dropdown-item" href="#sofasets">sofasets</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Offers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          
+          <span class="navbar-text">
+            <i class="fa-sharp fa-solid fa-shop fa-xl"></i>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!-- banner -->
+    <section id="home">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img height="800"
+              src="https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img height="800px" src="./images/imgstore/IMG_20230921_105612.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img height="800px" src="./images/imgstore/IMG_20230921_105544.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img height="800px" src="./images/imgstore/IMG_20230921_105519.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- main cards -->
+    <div id="chairs" class="m-5 pb-4" style="background-color: beige;">
+      <h1 class="chair mt-5" style="text-align: center; padding-top: 40px; color: #163a87;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-decoration: underline;">Chairs</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-60 m-5 mt-5" >
+            <div class="bg-image " >
+            <img height="250" src="https://i5.walmartimages.com/asr/911452d7-8804-4281-9c21-5070802a5ddf_2.ee135cbcbd3d020381a26f1cbcbc28ef.jpeg" class="card-img-top" alt="...">
+          </div>
+            <div class="card-body">
+              <h5 class="card-title"><b>Wooden Dinning Chairs</b></h5>
+              <p class="card-text">wooden armless dinning chairs set.<br>Starting Price : 10,000/-</p>
+              <button type="submit" class="btn btn-primary ">Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 10 mins ago</small>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-60 m-5 mt-5 ">
+            <img height="250" src="https://th.bing.com/th/id/OIP.CwpSBwiODmHoramnwJtjEwHaHa?pid=ImgDet&rs=1" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Office Chairs</b></h5>
+              <p class="card-text">Latest Design office chairs at best price deals.<br> Starting Price : 7500/-</p>
+                <button type="submit" class="btn btn-primary ">Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 30 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-60 m-5  mt-5 ">
+            <img height="250" src="https://th.bing.com/th/id/OIP.eTvkgL1EF8iZfNuJO1at4wHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1.3" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Bean Bags</b></h5>
+              <p class="card-text">Trendy & Comfortable Bean bags From <br>Starting Price : 4000/-</p>
+                <button type="submit" class="btn btn-primary ">Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 5 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="tablesets" class=" m-5 pb-5" style="background-color: beige;">
+      <h1 class="chair mt-5" style="text-align: center; padding-top: 40px; text-decoration: underline; color: #163a87; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Table Sets</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-60 m-5 mt-5 mb-2">
+            <img height="250" src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Small Rectangle Dinning Table</b></h5>
+              <p class="card-text"> Perfect Small Table for tiny dining rooms.<br> Starting Price : 12,000/-</p>
+                <button type="submit" class="btn btn-primary ">Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 10 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-60 m-5 mt-5 mb-2">
+            <img height="250" src="https://th.bing.com/th/id/OIP.oB8q5tCbZyH9N7FRsWhtYwHaFE?w=355&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Round Dinning Table</b></h5>
+              <p class="card-text">Stylish Round Dinning table set of 6.<br> Starting Price : 30,000/-</p>
+                <button type="submit" class="btn btn-primary ">Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 10 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-60 m-5 mt-5 mb-2">
+            <img height="250" src="https://th.bing.com/th/id/OIP.6YhoO5djjaiOSwKWk9_pKgHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1.3" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Ocean Dinning Table</b></h5>
+              <p class="card-text">Custome made Epoxy Resign River table set.<br>Starting Price : 38,000/-</p>
+                <button type="submit" class="btn btn-primary ">Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 5 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="bedroom" class="m-5 pb-5" style="background-color: beige;">
+      <h1 class="chair mt-5" style="text-align: center; padding-top: 40px; text-decoration: underline; color: #163a87; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Comfortable Beds</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-60 m-5 mt-5 mb-2">
+            <img height="250" src="https://th.bing.com/th/id/OIP.I_QQGHBSWQ8O70cgZlypcQHaHa?w=197&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>comfy lavender beds</b></h5>
+              <p class="card-text">Bed sets with court, bed sheets, comforters.<br>Starting Price : 55,000/-</p>
+                <button type="submit" class="btn btn-primary ">Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 5 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-60 m-5 mt-5 mb-2">
+            <img height="250" src="https://th.bing.com/th/id/OIP.R6DCvL5TjsxXe4lqBVTm6gHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>comfy white beds</b></h5>
+              <p class="card-text">Bed sets with court, bed sheets, comforters.<br>Starting Price : 55,000/-</p>
+                <button type="submit" class="btn btn-primary ">Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 20 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-60 m-5 mt-5 mb-2">
+            <img height="250" src="https://th.bing.com/th/id/OIP.VrwG04pjPvGUvWpORzU4jwHaHa?w=198&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Comfy pastel beds</b></h5>
+              <p class="card-text">Bed sets with court, bed sheets, comforters.<br>Starting Price : 55,000/-</p>
+                <button type="submit" class="btn btn-primary ">Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 10 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sofasets" class=" m-5 pb-5" style="background-color: beige;">
+      <h1 class="chair mt-5" style="text-align: center;padding-top: 40px; text-decoration: underline; color: #163a87; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Sofa sets</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-60 m-5 mt-5 mb-2">
+            <img height="250" src="https://th.bing.com/th/id/OIP.BDP6L6u6428U4hBJV28iEQHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1.3" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b> Modern Contemporary sets </b></h5>
+              <p class="card-text">Living & Lounge contemporary sofa sets.<br>Starting Price : 30,000/- </p>
+                <button type="submit" class="btn btn-primary ">Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-60 m-5 mt-5 mb-2">
+            <img height="250" src="https://th.bing.com/th/id/OIP.-zkIY3VapAmKUtnd6YwftgHaDr?w=363&h=174&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Royal Launge</b></h5>
+              <p class="card-text">Royal sofa set Hand carved in Teak wood.<br>Starting Price : 40,000/-</p>
+                <button type="submit" class="btn btn-primary ">Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 20 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-60 m-5 mt-5 mb-2">
+            <img height="250" src="https://th.bing.com/th/id/OIP.7hmi5jXX_p_RitZ3NfBMJQHaD2?w=313&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Back Motion Sofa</b></h5>
+              <p class="card-text">Bone coated microfiber motion sofa sets.<br>Starting Price : 15,000/-</p>
+                <button type="submit" class="btn btn-primary ">Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 10 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+
+    <form id="contact" >
+      
+      <div class="conatiner bg-light" style="padding: 70px; padding-bottom: 5px; margin: 50px; ">
+        <h2 style="text-align: center; margin-bottom: 50px;">Contact Us</h2>
+        <div class="form-floating-align" style="margin-left: 300px;">
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" style="width: 650px;">
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" style="width: 650px;">
+      <label for="floatingPassword">Password</label>
+    </div>
+    <div class="form-floating mb-3">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="width: 650px; height: 200px;"></textarea>
+      <label for="floatingTextarea2">Comments</label>
+    </div>
+    <button type="submit" class="btn btn-primary px-5" style="margin-top: 20px; margin-left: 500px; margin-bottom: 40px; ">Submit</button>
+  </div>
+</div>
+    </form>
+    <!-- footer -->
+    <footer class="bg-light text-center text-white m-5">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
+              class="fab fa-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
+              class="fab fa-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+              class="fab fa-instagram"></i></a>
+
+          <!-- Linkedin -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i
+              class="fab fa-linkedin-in"></i></a>
+          <!-- Github -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+              class="fab fa-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-primary" href="https://mdbootstrap.com/">WoodStyle</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+
+.navbar-nav{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-nav a:hover{
+    color: blue;
+
+}
